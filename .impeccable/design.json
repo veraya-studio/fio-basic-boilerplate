@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-25T00:00:00.000Z",
+  "title": "Design System: Fio",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Clover Green",
+        "canonical": "oklch(0.65 0.15 145)",
+        "tonalRamp": [
+          "oklch(0.95 0.02 145)",
+          "oklch(0.85 0.06 145)",
+          "oklch(0.75 0.10 145)",
+          "oklch(0.65 0.15 145)",
+          "oklch(0.55 0.15 145)",
+          "oklch(0.45 0.13 145)",
+          "oklch(0.35 0.10 145)",
+          "oklch(0.25 0.07 145)"
+        ]
+      },
+      "primary-foreground": {
+        "role": "primary-foreground",
+        "displayName": "Primary Near-White",
+        "canonical": "oklch(0.98 0.01 145)",
+        "tonalRamp": [
+          "oklch(0.99 0.005 145)",
+          "oklch(0.98 0.01 145)",
+          "oklch(0.96 0.015 145)",
+          "oklch(0.94 0.02 145)",
+          "oklch(0.92 0.025 145)",
+          "oklch(0.90 0.03 145)",
+          "oklch(0.88 0.035 145)",
+          "oklch(0.85 0.04 145)"
+        ]
+      },
+      "neutral-bg": {
+        "role": "neutral",
+        "displayName": "Paper White",
+        "canonical": "oklch(1 0 0)",
+        "tonalRamp": [
+          "oklch(0.99 0 0)",
+          "oklch(0.97 0 0)",
+          "oklch(0.95 0 0)",
+          "oklch(0.90 0 0)",
+          "oklch(0.80 0 0)",
+          "oklch(0.65 0 0)",
+          "oklch(0.45 0 0)",
+          "oklch(0.20 0 0)"
+        ]
+      },
+      "neutral-fg": {
+        "role": "neutral",
+        "displayName": "Carbon Ink",
+        "canonical": "oklch(0.141 0.005 285.823)",
+        "tonalRamp": [
+          "oklch(0.97 0.003 285.823)",
+          "oklch(0.92 0.003 285.823)",
+          "oklch(0.80 0.004 285.823)",
+          "oklch(0.65 0.005 285.823)",
+          "oklch(0.45 0.005 285.823)",
+          "oklch(0.30 0.005 285.823)",
+          "oklch(0.20 0.005 285.823)",
+          "oklch(0.141 0.005 285.823)"
+        ]
+      },
+      "neutral-muted": {
+        "role": "neutral",
+        "displayName": "Cool Mist",
+        "canonical": "oklch(0.967 0.001 286.375)",
+        "tonalRamp": [
+          "oklch(0.99 0.001 286.375)",
+          "oklch(0.967 0.001 286.375)",
+          "oklch(0.94 0.001 286.375)",
+          "oklch(0.90 0.001 286.375)",
+          "oklch(0.80 0.001 286.375)",
+          "oklch(0.65 0.001 286.375)",
+          "oklch(0.45 0.001 286.375)",
+          "oklch(0.25 0.001 286.375)"
+        ]
+      },
+      "neutral-border": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "oklch(0.92 0.004 286.32)",
+        "tonalRamp": [
+          "oklch(0.97 0.003 286.32)",
+          "oklch(0.92 0.004 286.32)",
+          "oklch(0.85 0.004 286.32)",
+          "oklch(0.75 0.004 286.32)",
+          "oklch(0.60 0.004 286.32)",
+          "oklch(0.45 0.004 286.32)",
+          "oklch(0.30 0.004 286.32)",
+          "oklch(0.18 0.004 286.32)"
+        ]
+      },
+      "destructive": {
+        "role": "status",
+        "displayName": "Alert Red",
+        "canonical": "oklch(0.577 0.245 27.325)",
+        "tonalRamp": [
+          "oklch(0.96 0.02 27.325)",
+          "oklch(0.88 0.06 27.325)",
+          "oklch(0.78 0.12 27.325)",
+          "oklch(0.68 0.20 27.325)",
+          "oklch(0.577 0.245 27.325)",
+          "oklch(0.48 0.22 27.325)",
+          "oklch(0.38 0.18 27.325)",
+          "oklch(0.28 0.14 27.325)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display (Figtree)",
+        "purpose": "Hero wordmark only — used once on the home page."
+      },
+      "headline": {
+        "displayName": "Headline (Figtree)",
+        "purpose": "Section H2s across /components and demo routes."
+      },
+      "body": {
+        "displayName": "Body (DM Sans)",
+        "purpose": "Running prose; lead, default, large, muted, small variants."
+      },
+      "label": {
+        "displayName": "Label (Geist Mono)",
+        "purpose": "Chips, code, prop names — technical content only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "card-rest",
+        "value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+        "purpose": "Default card surface — paired with ring-foreground/5 for separation."
+      },
+      {
+        "name": "card-lift",
+        "value": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+        "purpose": "Hover lift on /components feature cards."
+      },
+      {
+        "name": "tabs-active",
+        "value": "0 1px 2px 0 rgb(0 0 0 / 0.05)",
+        "purpose": "Selected tab trigger — small shadow on bg-background."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-quart",
+        "value": "cubic-bezier(0.25, 1, 0.5, 1)",
+        "purpose": "Default easing for entrances and reveals — exponential out, no bounce."
+      },
+      {
+        "name": "ease-standard",
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "State changes — focus rings, hover transitions, color picker re-tint."
+      },
+      {
+        "name": "duration-fast",
+        "value": "150ms",
+        "purpose": "Micro-feedback — button hover, focus ring appear."
+      },
+      {
+        "name": "duration-medium",
+        "value": "250ms",
+        "purpose": "Standard transitions — modal open, select content fade-in."
+      },
+      {
+        "name": "duration-slow",
+        "value": "500ms",
+        "purpose": "Image fade-in on load (AppImageFallback onLoad)."
+      }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" },
+      { "name": "2xl", "value": "1536px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Button Primary",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary action — committed color, pill shape, tap-able weight.",
+      "html": "<button class=\"ds-btn-primary\">Get started</button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 0.375rem; padding: 0.625rem 1rem; border: 1px solid transparent; border-radius: 1.625rem; background-color: var(--primary); color: var(--primary-foreground); font-size: 0.875rem; font-weight: 500; font-family: 'DM Sans', ui-sans-serif, system-ui, sans-serif; cursor: pointer; transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1); } .ds-btn-primary:hover { background-color: color-mix(in oklch, var(--primary) 80%, transparent); } .ds-btn-primary:focus-visible { border-color: var(--ring); box-shadow: 0 0 0 3px color-mix(in oklch, var(--ring) 30%, transparent); outline: none; } .ds-btn-primary:active:not([aria-haspopup]) { transform: translateY(1px); } .ds-btn-primary:disabled { opacity: 0.5; pointer-events: none; }"
+    },
+    {
+      "name": "Button Outline",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary action — full border, hover fills with muted.",
+      "html": "<button class=\"ds-btn-outline\">Learn more</button>",
+      "css": ".ds-btn-outline { display: inline-flex; align-items: center; justify-content: center; gap: 0.375rem; padding: 0.625rem 1rem; border: 1px solid var(--border); border-radius: 1.625rem; background-color: var(--background); color: var(--foreground); font-size: 0.875rem; font-weight: 500; font-family: 'DM Sans', ui-sans-serif, system-ui, sans-serif; cursor: pointer; transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1), color 150ms cubic-bezier(0.4, 0, 0.2, 1); } .ds-btn-outline:hover { background-color: var(--muted); color: var(--foreground); } .ds-btn-outline:focus-visible { border-color: var(--ring); box-shadow: 0 0 0 3px color-mix(in oklch, var(--ring) 30%, transparent); outline: none; } .ds-btn-outline:disabled { opacity: 0.5; pointer-events: none; }"
+    },
+    {
+      "name": "Card Default",
+      "kind": "card",
+      "refersTo": "card-default",
+      "description": "Resting card surface — true-white background, hairline ring, gentle shadow.",
+      "html": "<div class=\"ds-card\">\n  <div class=\"ds-card-header\">\n    <div class=\"ds-card-title\">Default card</div>\n    <div class=\"ds-card-desc\">Title and description live in the header slot.</div>\n  </div>\n  <div class=\"ds-card-content\">Content slot holds anything from a paragraph to a chart.</div>\n</div>",
+      "css": ".ds-card { display: flex; flex-direction: column; gap: 1.5rem; padding: 1.5rem; border-radius: 1.625rem; background-color: var(--card); color: var(--card-foreground); box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); box-shadow: 0 0 0 1px color-mix(in oklch, var(--foreground) 5%, transparent); font-size: 0.875rem; } .ds-card-header { display: grid; grid-template-rows: auto auto; gap: 0.375rem; } .ds-card-title { font-family: 'Figtree', ui-sans-serif, system-ui, sans-serif; font-size: 1rem; font-weight: 500; line-height: 1; } .ds-card-desc { font-size: 0.875rem; color: var(--muted-foreground); } .ds-card-content { color: var(--card-foreground); }"
+    },
+    {
+      "name": "Tabs List + Trigger",
+      "kind": "nav",
+      "refersTo": "tabs-list",
+      "description": "Tabs pill — muted surface with rounded-3xl triggers; selection is bg switch + small shadow.",
+      "html": "<div class=\"ds-tabs\">\n  <div class=\"ds-tabs-list\">\n    <button class=\"ds-tabs-trigger ds-tabs-trigger--active\">Fio Component</button>\n    <button class=\"ds-tabs-trigger\">Shadcn UI</button>\n  </div>\n  <div class=\"ds-tabs-content\">Content panel.</div>\n</div>",
+      "css": ".ds-tabs { display: flex; flex-direction: column; gap: 0.5rem; } .ds-tabs-list { display: inline-flex; height: 2.25rem; align-items: center; gap: 0.25rem; padding: 0.25rem; border-radius: 1.625rem; background-color: var(--muted); color: var(--muted-foreground); } .ds-tabs-trigger { display: inline-flex; flex: 1; align-items: center; justify-content: center; gap: 0.375rem; height: 1.75rem; padding: 0 0.75rem; border: 1px solid transparent; border-radius: 1.375rem; background-color: transparent; color: inherit; font-size: 0.875rem; font-weight: 500; font-family: 'DM Sans', ui-sans-serif, system-ui, sans-serif; cursor: pointer; transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 150ms cubic-bezier(0.4, 0, 0.2, 1); } .ds-tabs-trigger:hover { color: var(--foreground); } .ds-tabs-trigger:focus-visible { border-color: var(--ring); box-shadow: 0 0 0 3px color-mix(in oklch, var(--ring) 30%, transparent); outline: none; } .ds-tabs-trigger--active { background-color: var(--background); color: var(--foreground); box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); } .ds-tabs-content { flex: 1; outline: none; }"
+    },
+    {
+      "name": "Tooltip Content",
+      "kind": "chip",
+      "refersTo": "tooltip-content",
+      "description": "Inverse tooltip — Carbon Ink surface, Paper White text, rounded-xl.",
+      "html": "<div class=\"ds-tooltip-content\">\n  <p>Built on Radix UI primitives.</p>\n</div>",
+      "css": ".ds-tooltip-content { display: inline-flex; align-items: center; gap: 0.375rem; padding: 0.375rem 0.75rem; border-radius: 0.875rem; background-color: var(--foreground); color: var(--background); font-size: 0.75rem; font-family: 'DM Sans', ui-sans-serif, system-ui, sans-serif; max-width: 20rem; } .ds-tooltip-content[data-state='delayed-open'] { animation: ds-tooltip-in 200ms cubic-bezier(0.16, 1, 0.3, 1); } @keyframes ds-tooltip-in { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }"
+    },
+    {
+      "name": "Select Trigger",
+      "kind": "input",
+      "refersTo": "select-trigger",
+      "description": "Headless select trigger — 50% muted surface, transparent border, rounded-3xl.",
+      "html": "<button class=\"ds-select-trigger\">\n  <span>Select a color</span>\n  <svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m4 6 4 4 4-4\"/></svg>\n</button>",
+      "css": ".ds-select-trigger { display: inline-flex; align-items: center; justify-content: space-between; gap: 0.375rem; min-width: 12.5rem; height: 2.25rem; padding: 0.5rem 0.75rem; border: 1px solid transparent; border-radius: 1.375rem; background-color: color-mix(in oklch, var(--input) 50%, transparent); color: var(--foreground); font-size: 0.875rem; font-weight: 500; font-family: 'DM Sans', ui-sans-serif, system-ui, sans-serif; cursor: pointer; transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 150ms cubic-bezier(0.4, 0, 0.2, 1), background-color 150ms cubic-bezier(0.4, 0, 0.2, 1); } .ds-select-trigger:focus-visible { border-color: var(--ring); box-shadow: 0 0 0 3px color-mix(in oklch, var(--ring) 30%, transparent); outline: none; } .ds-select-trigger:disabled { cursor: not-allowed; opacity: 0.5; } .ds-select-trigger[data-placeholder] { color: var(--muted-foreground); } .ds-select-trigger svg { color: var(--muted-foreground); flex-shrink: 0; }"
+    },
+    {
+      "name": "AppImageFallback Wrapper",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Image wrapper with skeleton + blurred-preview + IO gate. Signature component for the starter.",
+      "html": "<div class=\"ds-image-fallback\">\n  <img class=\"ds-image-fallback__placeholder\" src=\"/images/fio-icon.avif\" alt=\"\" />\n  <img class=\"ds-image-fallback__main\" src=\"/images/fio-icon.avif\" alt=\"Fio logo\" />\n</div>",
+      "css": ".ds-image-fallback { position: relative; width: 100%; height: 100%; overflow: hidden; border-radius: 0.875rem; } .ds-image-fallback__placeholder { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: blur(24px) brightness(1.05); transform: scale(1.1); } .ds-image-fallback__main { width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1); } .ds-image-fallback__main[data-loaded='true'] { opacity: 1; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Workbench",
+    "overview": "The system reads as a pre-drilled maker's surface: the tools are already where you'd reach for them. The grid is sharp and the layout is mechanically predictable, but the defaults are warm enough that you actually want to use it — the typography has a real headline voice, the surfaces commit to a single accent instead of hedging with grays, and the friendly mascot (fiony.avif) keeps the surface from sliding into the SaaS-cream orthodoxy. The workbench is opinionated but not hostile. It commits to a primary palette and a type stack, but neither locks the user in: the color picker rewrites --primary live so any dev can swap palettes in seconds, and the typography tokens live in CSS variables that drop cleanly into Tailwind. The mechanics of the system are exposed, not hidden — that's the ready-to-fork claim PRODUCT.md is built on.",
+    "keyCharacteristics": [
+      "Sharp grid, warm defaults",
+      "Live and swappable — color picker rewrites --primary on every palette change",
+      "Inventoried, not curated — /components demos real prop combinations",
+      "Tactile primitives — buttons and cards have tap-able weight",
+      "Three fonts, three jobs — Figtree / DM Sans / Geist Mono"
+    ],
+    "rules": [
+      {
+        "name": "The One Accent Rule",
+        "body": "The primary accent carries primary actions, current selection, and the four live surfaces (icon, favicon, bprogress, focus ring). It is never decoration. Its rarity on any given screen is the point.",
+        "section": "colors"
+      },
+      {
+        "name": "The No-Cream-Body Rule",
+        "body": "The body background is true white at L 1.0. No warm tints, no beige, no sand. Warmth is carried by accent + typography + imagery — not by the body.",
+        "section": "colors"
+      },
+      {
+        "name": "The Dynamic-Accent Rule",
+        "body": "The primary is an OKLCH triple written to a CSS variable, not a hex value hardcoded into a component. Every accent surface reads var(--primary); the color picker can swap it without a rebuild.",
+        "section": "colors"
+      },
+      {
+        "name": "The Three-Family Rule",
+        "body": "Display and Body are different voices (Figtree vs. DM Sans). Mono is for technical content only — never used as body text or headings, and never used as a shortcut for developer aesthetic.",
+        "section": "typography"
+      },
+      {
+        "name": "The Display-Ceiling Rule",
+        "body": "Display tops out at clamp max ~3rem (48px). The hero is large, not shouting; the page never exceeds the 6rem ceiling.",
+        "section": "typography"
+      },
+      {
+        "name": "The Hairline-Ring Rule",
+        "body": "Default separation is a 1px ring at ring-foreground/5 (light) or ring-foreground/10 (dark). Shadows are reserved for elevation changes; rings are for surface borders.",
+        "section": "elevation"
+      },
+      {
+        "name": "The No-Stripe Rule",
+        "body": "Borders are full, never side-stripe. No border-left: 4px solid as a colored accent on cards, list items, callouts, or alerts.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do commit to one accent per palette and let the color picker swap it live. The whole system re-tints without a rebuild.",
+      "Do carry separation with shadow-md + ring-1, not with tinted backgrounds or side-stripes.",
+      "Do keep the body background at oklch(1 0 0) — true white, no warm tint.",
+      "Do use Figtree for display/headings, DM Sans for body, Geist Mono for technical labels. Three families, three jobs.",
+      "Do cap the hero at clamp(2.25rem, 5vw, 3rem). The page announces, it doesn't shout.",
+      "Do write accents as OKLCH triples through CSS variables, not as hex values hardcoded into a component."
+    ],
+    "donts": [
+      "Don't use cream / sand / beige body backgrounds — true white at L 1.0 is the body. Warmth is the accent and the type, not the canvas. (Anti-reference: the SaaS-cream / SaaS-blue gradient trap.)",
+      "Don't put a tiny uppercase tracked eyebrow above every section heading. One named kicker can be voice; one above every section is AI grammar.",
+      "Don't ship identical icon + heading + text feature grids in a row. Vary the grid; break the rhythm. (Anti-reference: the SaaS template-grid reflex.)",
+      "Don't use display-serif + ruled-columns + italic drop caps. Fio is a starter, not a magazine. (Anti-reference: the editorial-magazine reflex.)",
+      "Don't use border-left greater than 1px as a colored accent on cards, list items, or alerts. Use a full border, a background tint, or nothing.",
+      "Don't use background-clip: text + a gradient. Solid color emphasis, every time.",
+      "Don't use monospace as a shortcut for developer / technical. Geist Mono is for technical content only. (Anti-reference: the terminal / developer-tool reflex.)",
+      "Don't hardcode color hex values into components. Every accent reads var(--primary); the picker is a feature, not a courtesy.",
+      "Don't gate content visibility on a class-triggered transition. Reveals enhance an already-visible default; they never replace it."
+    ]
+  }
+}
