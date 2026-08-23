@@ -20,8 +20,6 @@ const eslintConfig = defineConfig([
     ".agents/**",
     ".claude/**",
     ".codex/**",
-    ".impeccable/**",
-    "graphify-out/**",
   ]),
 ])
 

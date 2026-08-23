@@ -23,12 +23,6 @@
       "sourceType": "github",
       "computedHash": "d0137ba04049bf8926bc80f6a5e2b82d94b5633b6445a85dbfb26ab4f1b104c6"
     },
-    "graphify": {
-      "source": "graphify-labs/graphify",
-      "sourceType": "github",
-      "skillPath": "graphify/SKILL.md",
-      "computedHash": "0b77bcb811d294f9604f1f6987654dcb7da6bb5baa09b4e5559cc6a0247d557b"
-    },
     "high-end-visual-design": {
       "source": "Leonxlnx/taste-skill",
       "sourceType": "github",

@@ -52,14 +52,6 @@ export default function RootLayout({
             </TooltipProvider>
           </BprogressProvider>
         </ThemeProvider>
-        {/* impeccable-live-start */}
-        {process.env.NODE_ENV === "development" && (
-          <Script
-            src="http://localhost:8400/live.js"
-            strategy="afterInteractive"
-          />
-        )}
-        {/* impeccable-live-end */}
       </body>
     </html>
   )

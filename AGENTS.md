@@ -89,7 +89,7 @@ doc; that one is the "how to write code here" doc.
 1. **Read `.claude/AGENTS.md`** for the project's conventions.
 2. **Skim installed skills** under `.claude/skills/` and `.agents/skills/`
    (`ui-ux-pro-max`, `shadcn`, `next-best-practices`, `tanstack-query`,
-   `framer-motion-animator`, `accessibility`, `impeccable`, `emil-design-eng`,
+   `framer-motion-animator`, `accessibility`, `emil-design-eng`,
    `design-taste-frontend`, `simplify`) and invoke the relevant one before designing.
 3. **Default new local code to `_modules/`** under the owning route. Only extract
    to `src/components/`, `src/lib/`, etc. when there's cross-page reuse.
